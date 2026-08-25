@@ -1,6 +1,6 @@
 # 🚀 Pritam Debnath — Portfolio
 
-🌐 **Live Website:** [
+🌐 **Live Website:** https://pritam-42.github.io/Pritam_Portfolio/
 
 Modern interactive portfolio built with HTML, CSS and JavaScript.
 
