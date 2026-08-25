@@ -1,0 +1,2378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Pritam Debnath — Personal portfolio, skills, journey, projects and music."
+    >
+
+    <meta
+        name="author"
+        content="Pritam Debnath"
+    >
+
+    <meta
+        name="theme-color"
+        content="#050505"
+    >
+
+    <title>Pritam Debnath | Portfolio</title>
+
+    <!-- =========================
+         FONT / ICONS
+    ========================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- =========================
+         MAIN CSS
+    ========================== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body
+    id="top"
+    data-theme="dark"
+    data-page="portfolio"
+>
+
+    <!-- =========================================================
+         BACKGROUND / INTERACTIVE UI LAYERS
+    ========================================================== -->
+    <!-- Interactive Cursor -->
+<div id="cursor-dot" class="cursor-dot"></div>
+<div id="cursor-ring" class="cursor-ring"></div>
+<div id="cursor-trail"></div>
+    <div
+        id="particle-background"
+        class="particle-background"
+        aria-hidden="true"
+    ></div>
+
+    <div
+        id="cursor-glow"
+        class="cursor-glow"
+        aria-hidden="true"
+    ></div>
+
+    <div
+        class="noise-overlay"
+        aria-hidden="true"
+    ></div>
+
+    <div
+        class="page-grid"
+        aria-hidden="true"
+    ></div>
+
+
+    <!-- =========================================================
+         HEADER / NAVIGATION
+    ========================================================== -->
+
+    <header
+        id="site-header"
+        class="site-header glass-panel"
+        data-header="main"
+    >
+
+        <div class="container nav-container">
+
+            <!-- Logo -->
+            <a
+                href="#home"
+                class="brand"
+                aria-label="Go to homepage"
+                data-scroll-target="home"
+            >
+                <span class="brand-mark">P</span>
+
+                <span class="brand-text">
+                    Pritam<span>.</span>
+                </span>
+            </a>
+
+
+            <!-- Desktop Navigation -->
+            <nav
+                id="main-navigation"
+                class="main-navigation"
+                aria-label="Primary navigation"
+            >
+
+                <ul class="nav-list">
+
+                    <li class="nav-item">
+                        <a
+                            href="#home"
+                            class="nav-link active"
+                            data-section="home"
+                        >
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            href="#about"
+                            class="nav-link"
+                            data-section="about"
+                        >
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            href="#skills"
+                            class="nav-link"
+                            data-section="skills"
+                        >
+                            Skills
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            href="#journey"
+                            class="nav-link"
+                            data-section="journey"
+                        >
+                            Journey
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            href="#projects"
+                            class="nav-link"
+                            data-section="projects"
+                        >
+                            Projects
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a
+                            href="#music"
+                            class="nav-link"
+                            data-section="music"
+                        >
+                            Music
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+
+                <button
+                    type="button"
+                    id="theme-toggle"
+                    class="icon-button"
+                    aria-label="Toggle theme"
+                    title="Toggle theme"
+                    data-action="toggle-theme"
+                >
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button
+                    type="button"
+                    id="menu-toggle"
+                    class="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    data-action="toggle-menu"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================================
+         MAIN CONTENT
+    ========================================================== -->
+
+    <main id="main-content">
+
+
+        <!-- =====================================================
+             HERO SECTION
+        ====================================================== -->
+        
+        <section
+            id="home"
+            class="hero-section section"
+            data-section-id="home"
+        >
+
+            <div
+                class="hero-orbit orbit-one"
+                aria-hidden="true"
+            ></div>
+
+            <div
+                class="hero-orbit orbit-two"
+                aria-hidden="true"
+            ></div>
+
+            <div
+                class="hero-orbit orbit-three"
+                aria-hidden="true"
+            ></div>
+
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <!-- Dynamic Greeting -->
+                    <div
+                        id="dynamic-greeting"
+                        class="eyebrow"
+                        data-greeting="true"
+                    >
+                        <span class="status-dot"></span>
+                        Hello, I'm
+                    </div>
+
+
+                    <!-- Main Heading -->
+                    <h1 class="hero-title">
+
+                        <span class="hero-title-line">
+                            Pritam
+                        </span>
+
+                        <span class="hero-title-line gradient-text">
+                            Debnath<span class="title-dot">.</span>
+                        </span>
+
+                    </h1>
+
+
+                    <!-- Dynamic Role -->
+                    <div
+                        class="hero-role"
+                        aria-label="Professional roles"
+                    >
+
+                        <span class="role-prefix">
+                            I am a
+                        </span>
+
+                        <span
+                            id="typing-role"
+                            class="typing-role"
+                            data-roles='[
+                                "Developer",
+                                "Web Creator",
+                                "Programmer",
+                                "Problem Solver",
+                                "Future Professional"
+                            ]'
+                        >
+                            Developer
+                        </span>
+
+                        <span
+                            class="typing-cursor"
+                            aria-hidden="true"
+                        >
+                            |
+                        </span>
+
+                    </div>
+
+
+                    <!-- Hero Description -->
+                    <p class="hero-description">
+
+                        Learning every day.
+                        Building every day.
+                        Becoming better every day.
+
+                        <br>
+
+                        A curious learner from
+                        <strong>Purba Bardhaman</strong>,
+                        focused on technology, creativity,
+                        skill building and career success.
+
+                    </p>
+
+
+                    <!-- Hero CTA -->
+                    <div class="hero-actions">
+
+                        <a
+                            href="#projects"
+                            class="btn btn-primary magnetic"
+                            data-scroll-target="projects"
+                        >
+                            <span>Explore My Work</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a
+                            href="#about"
+                            class="btn btn-secondary magnetic"
+                            data-scroll-target="about"
+                        >
+                            <span>Discover My Story</span>
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+
+                    </div>
+
+
+                    <!-- Social / Quick Links -->
+                    <div class="hero-socials">
+
+                        <a
+                            href="#projects"
+                            class="social-link"
+                            aria-label="Projects"
+                            title="Projects"
+                        >
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+
+                        <a
+                            href="#music"
+                            class="social-link"
+                            aria-label="Music"
+                            title="Music"
+                        >
+                            <i class="fa-solid fa-music"></i>
+                        </a>
+
+                        <a
+                            href="#journey"
+                            class="social-link"
+                            aria-label="Journey"
+                            title="Journey"
+                        >
+                            <i class="fa-solid fa-road"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     HERO PROFILE IMAGE
+                ========================== -->
+
+                <div class="hero-visual">
+
+                    <div class="profile-scene">
+
+                        <div
+                            class="profile-glow"
+                            aria-hidden="true"
+                        ></div>
+
+                        <div
+                            class="profile-ring ring-one"
+                            aria-hidden="true"
+                        ></div>
+
+                        <div
+                            class="profile-ring ring-two"
+                            aria-hidden="true"
+                        ></div>
+
+
+                        <figure
+                            class="profile-card"
+                            data-tilt="true"
+                        >
+
+                            <div class="profile-image-wrapper">
+
+                                <!--
+                                    Place the uploaded photo here:
+                                    assets/pritam-profile.jpg
+                                -->
+                                <img
+                                    src="\assets\pritam_profile.jpeg"
+                                    alt="Pritam Debnath"
+                                    class="profile-image"
+                                    loading="eager"
+                                >
+
+                            </div>
+
+                            <figcaption class="profile-caption">
+
+                                <span class="profile-caption-label">
+                                    Based in
+                                </span>
+
+                                <strong>
+                                    Purba Bardhaman
+                                </strong>
+
+                            </figcaption>
+
+                        </figure>
+
+
+                        <!-- Floating Info Card -->
+                        <div
+                            class="floating-card floating-card-one glass-panel"
+                            data-floating="true"
+                        >
+                            <i class="fa-solid fa-location-dot"></i>
+
+                            <div>
+                                <span>Location</span>
+                                <strong>Purba Bardhaman</strong>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="floating-card floating-card-two glass-panel"
+                            data-floating="true"
+                        >
+                            <i class="fa-solid fa-code"></i>
+
+                            <div>
+                                <span>Focus</span>
+                                <strong>Skill Building</strong>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="floating-card floating-card-three glass-panel"
+                            data-floating="true"
+                        >
+                            <i class="fa-solid fa-bolt"></i>
+
+                            <div>
+                                <span>Mindset</span>
+                                <strong>Keep Growing</strong>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Scroll Indicator -->
+            <a
+                href="#about"
+                class="scroll-indicator"
+                aria-label="Scroll to About section"
+            >
+
+                <span>Scroll to explore</span>
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </a>
+
+        </section>
+
+
+        <!-- =====================================================
+             ABOUT SECTION
+        ====================================================== -->
+
+        <section
+            id="about"
+            class="about-section section"
+            data-section-id="about"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        01 / About Me
+                    </span>
+
+                    <h2 class="section-title">
+                        More than a
+                        <span class="gradient-text">developer.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        A continuous learner who believes that
+                        improvement is a daily process.
+                    </p>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <!-- About Main -->
+                    <article
+                        class="about-main glass-panel"
+                        data-reveal="true"
+                    >
+
+                        <div class="about-icon">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                        </div>
+
+                        <h3>
+                            Hello, I'm Pritam.
+                        </h3>
+
+                        <p>
+                            I enjoy learning new things and
+                            improving myself every day.
+                            My goal is to continuously build
+                            knowledge, practical skills and
+                            experience that can help me create
+                            a successful career.
+                        </p>
+
+                        <p>
+                            Outside academics and technology,
+                            I enjoy spending my free time with
+                            my family and friends.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Lifestyle -->
+                    <article
+                        class="about-card glass-panel"
+                        data-reveal="true"
+                    >
+
+                        <div class="card-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <h3>
+                            Lifestyle
+                        </h3>
+
+                        <p>
+                            Learning, improving,
+                            experimenting and enjoying
+                            meaningful time with people
+                            who matter.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Hobbies -->
+                    <article
+                        class="about-card glass-panel"
+                        data-reveal="true"
+                    >
+
+                        <div class="card-icon">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+
+                        <h3>
+                            Hobbies
+                        </h3>
+
+                        <div class="hobby-list">
+
+                            <span class="tag">
+                                <i class="fa-solid fa-shuttlecock"></i>
+                                Badminton
+                            </span>
+
+                            <span class="tag">
+                                <i class="fa-solid fa-gamepad"></i>
+                                Video Games
+                            </span>
+
+                            <span class="tag">
+                                <i class="fa-solid fa-ellipsis"></i>
+                                Etc.
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Location -->
+                    <article
+                        class="about-card glass-panel"
+                        data-reveal="true"
+                    >
+
+                        <div class="card-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <h3>
+                            From
+                        </h3>
+
+                        <p class="large-text">
+                            Purba Bardhaman
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             SKILLS SECTION
+        ====================================================== -->
+
+        <section
+            id="skills"
+            class="skills-section section"
+            data-section-id="skills"
+        >
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <span class="section-kicker">
+                        02 / Skills
+                    </span>
+
+                    <h2 class="section-title">
+                        Technologies I
+                        <span class="gradient-text">build with.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        The core areas I am developing
+                        through study and hands-on practice.
+                    </p>
+
+                </div>
+
+
+                <div
+                    id="skills-grid"
+                    class="skills-grid"
+                    data-skills-container="true"
+                >
+
+                    <!-- C -->
+                    <article
+                        class="skill-card glass-panel"
+                        data-skill="c-programming"
+                        data-level="core"
+                    >
+
+                        <div class="skill-number">
+                            01
+                        </div>
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-c"></i>
+                        </div>
+
+                        <h3>
+                            C Programming
+                        </h3>
+
+                        <p>
+                            Building strong programming
+                            fundamentals and problem-solving
+                            skills.
+                        </p>
+
+                        <div class="skill-meta">
+                            <span>
+                                Core Skill
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Web Development -->
+                    <article
+                        class="skill-card glass-panel"
+                        data-skill="web-development"
+                        data-level="core"
+                    >
+
+                        <div class="skill-number">
+                            02
+                        </div>
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+
+                        <h3>
+                            Web Development
+                        </h3>
+
+                        <p>
+                            Creating modern websites with
+                            HTML, CSS and JavaScript-driven
+                            interactions.
+                        </p>
+
+                        <div class="skill-meta">
+                            <span>
+                                Core Skill
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+
+                    </article>
+
+
+                    <!-- C++ -->
+                    <article
+                        class="skill-card glass-panel"
+                        data-skill="cpp"
+                        data-level="core"
+                    >
+
+                        <div class="skill-number">
+                            03
+                        </div>
+
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+
+                        <h3>
+                            C++
+                        </h3>
+
+                        <p>
+                            Developing programming logic,
+                            object-oriented concepts and
+                            problem-solving ability.
+                        </p>
+
+                        <div class="skill-meta">
+                            <span>
+                                Core Skill
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- Skill Marquee -->
+                <div
+                    class="skill-marquee"
+                    aria-hidden="true"
+                >
+
+                    <div class="marquee-track">
+
+                        <span>C PROGRAMMING</span>
+                        <span>•</span>
+                        <span>WEB DEVELOPMENT</span>
+                        <span>•</span>
+                        <span>C++</span>
+                        <span>•</span>
+                        <span>PROBLEM SOLVING</span>
+                        <span>•</span>
+
+                        <span>C PROGRAMMING</span>
+                        <span>•</span>
+                        <span>WEB DEVELOPMENT</span>
+                        <span>•</span>
+                        <span>C++</span>
+                        <span>•</span>
+                        <span>PROBLEM SOLVING</span>
+                        <span>•</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             JOURNEY / TIMELINE SECTION
+        ====================================================== -->
+
+        <section
+            id="journey"
+            class="journey-section section"
+            data-section-id="journey"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        03 / My Journey
+                    </span>
+
+                    <h2 class="section-title">
+                        The road that
+                        <span class="gradient-text">shaped me.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        From school life and board examinations
+                        to B.Tech and future career ambitions.
+                    </p>
+
+                </div>
+
+
+                <div
+                    class="timeline"
+                    id="education-timeline"
+                >
+
+                    <!-- Timeline Item 1 -->
+                    <article
+                        class="timeline-item"
+                        data-year="Class 1-7"
+                        data-reveal="true"
+                    >
+
+                        <div class="timeline-marker">
+                            <span>01</span>
+                        </div>
+
+                        <div class="timeline-content glass-panel">
+
+                            <span class="timeline-period">
+                                Class 1 - 7
+                            </span>
+
+                            <h3>
+                                Primary Education
+                            </h3>
+
+                            <h4>
+                                Holy Child Athletic School
+                            </h4>
+
+                            <p class="timeline-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nadanghat More
+                            </p>
+
+                            <p>
+                                Private school education where
+                                the foundation of my academic
+                                journey began.
+                            </p>
+
+                            <div class="timeline-tags">
+
+                                <span class="tag">
+                                    Private School
+                                </span>
+
+                                <span class="tag">
+                                    Foundation
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Timeline Item 2 -->
+                    <article
+                        class="timeline-item"
+                        data-year="Class 8-12"
+                        data-reveal="true"
+                    >
+
+                        <div class="timeline-marker">
+                            <span>02</span>
+                        </div>
+
+                        <div class="timeline-content glass-panel">
+
+                            <span class="timeline-period">
+                                Class 8 - 12
+                            </span>
+
+                            <h3>
+                                Secondary & Higher Secondary
+                            </h3>
+
+                            <h4>
+                                Samudragarh High School
+                            </h4>
+
+                            <p class="timeline-location">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nadanghat More
+                            </p>
+
+                            <p>
+                                Government school education
+                                through secondary and higher
+                                secondary years.
+                            </p>
+
+                            <div class="timeline-tags">
+
+                                <span class="tag">
+                                    Government School
+                                </span>
+
+                                <span class="tag">
+                                    Class 8 - 12
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Timeline Item 3 -->
+                    <article
+                        class="timeline-item"
+                        data-year="Class 10"
+                        data-reveal="true"
+                    >
+
+                        <div class="timeline-marker milestone-marker">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <div class="timeline-content glass-panel milestone-card">
+
+                            <span class="timeline-period">
+                                Board Milestone
+                            </span>
+
+                            <h3>
+                                Class 10 Result
+                            </h3>
+
+                            <div class="milestone-score">
+                                <span class="score-number">
+                                    536
+                                </span>
+
+                                <span class="score-label">
+                                    marks
+                                </span>
+                            </div>
+
+                            <p>
+                                A major academic milestone
+                                during my secondary education.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Timeline Item 4 -->
+                    <article
+                        class="timeline-item"
+                        data-year="Class 12"
+                        data-reveal="true"
+                    >
+
+                        <div class="timeline-marker milestone-marker">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+
+                        <div class="timeline-content glass-panel milestone-card">
+
+                            <span class="timeline-period">
+                                Board Milestone
+                            </span>
+
+                            <h3>
+                                Class 12 Result
+                            </h3>
+
+                            <div class="milestone-score">
+                                <span class="score-number">
+                                    422
+                                </span>
+
+                                <span class="score-label">
+                                    marks
+                                </span>
+                            </div>
+
+                            <p>
+                                Another important milestone
+                                that marked the transition
+                                toward higher education.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Timeline Item 5 -->
+                    <article
+                        class="timeline-item"
+                        data-year="Board Years"
+                        data-reveal="true"
+                    >
+
+                        <div class="timeline-marker">
+                            <span>05</span>
+                        </div>
+
+                        <div class="timeline-content glass-panel">
+
+                            <span class="timeline-period">
+                                Support System
+                            </span>
+
+                            <h3>
+                                7 Supportive Teachers
+                            </h3>
+
+                            <p>
+                                During my board years,
+                                I was guided and supported
+                                by 7 teachers who helped me
+                                throughout this important
+                                stage of my education.
+                            </p>
+
+                            <div class="support-badge">
+
+                                <i class="fa-solid fa-chalkboard-user"></i>
+
+                                <span>
+                                    7 Teachers
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Timeline Item 6 -->
+                    <article
+                        class="timeline-item active"
+                        data-year="Present"
+                        data-reveal="true"
+                    >
+
+                        <div class="timeline-marker">
+                            <span>06</span>
+                        </div>
+
+                        <div class="timeline-content glass-panel current-card">
+
+                            <span class="timeline-period">
+                                Present
+                            </span>
+
+                            <h3>
+                                B.Tech at Adamas University
+                            </h3>
+
+                            <p>
+                                I am currently pursuing B.Tech
+                                at Adamas University, focusing
+                                on skill building, practical
+                                knowledge and career success.
+                            </p>
+
+                            <div class="current-focus">
+
+                                <div class="focus-item">
+                                    <i class="fa-solid fa-code"></i>
+                                    <span>Skill Building</span>
+                                </div>
+
+                                <div class="focus-item">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                    <span>Technology</span>
+                                </div>
+
+                                <div class="focus-item">
+                                    <i class="fa-solid fa-chart-line"></i>
+                                    <span>Career Success</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Timeline Item 7 -->
+                    <article
+                        class="timeline-item dream-card-wrapper"
+                        data-year="Dream"
+                        data-reveal="true"
+                    >
+
+                        <div class="timeline-marker dream-marker">
+                            <i class="fa-solid fa-plane"></i>
+                        </div>
+
+                        <div class="timeline-content glass-panel dream-card">
+
+                            <span class="timeline-period">
+                                A Dream
+                            </span>
+
+                            <h3>
+                                Becoming a Pilot
+                            </h3>
+
+                            <p>
+                                One of my personal aspirations
+                                was to become a pilot. Although
+                                that dream remained unfulfilled
+                                at the time, it remains an
+                                important part of my journey.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             PROJECTS SECTION
+        ====================================================== -->
+<!-- =====================================================
+     PROJECTS SECTION
+====================================================== -->
+
+<section
+    id="projects"
+    class="projects-section section"
+    data-section-id="projects"
+>
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-kicker">
+                04 / Projects
+            </span>
+
+            <h2 class="section-title">
+                Things I'm
+                <span class="gradient-text">building.</span>
+            </h2>
+
+            <p class="section-description">
+                A collection of projects I have built while
+                learning, experimenting and developing my skills.
+            </p>
+
+        </div>
+
+
+        <!-- Project Filter -->
+        <div
+            class="project-filters"
+            role="tablist"
+            aria-label="Project categories"
+            data-project-filter="true"
+        >
+
+            <button
+                type="button"
+                class="filter-button active"
+                data-filter="all"
+            >
+                All
+            </button>
+
+            <button
+                type="button"
+                class="filter-button"
+                data-filter="web"
+            >
+                Web Dev
+            </button>
+
+            <button
+                type="button"
+                class="filter-button"
+                data-filter="html-css"
+            >
+                HTML/CSS
+            </button>
+
+            <button
+                type="button"
+                class="filter-button"
+                data-filter="firebase"
+            >
+                Firebase
+            </button>
+
+        </div>
+
+
+        <!-- Projects Grid -->
+        <div
+            id="projects-grid"
+            class="projects-grid"
+            data-projects-container="true"
+        >
+
+
+            <!-- =================================================
+                 PROJECT 01 — DIGITAL BANKING SYSTEM
+            ================================================== -->
+
+            <article
+                class="project-card glass-panel"
+                data-project-card="true"
+                data-category="web"
+                data-project-id="digital-banking"
+                data-reveal="true"
+            >
+
+<div class="project-image project-bank-image">
+
+    <img
+        src="assets/bank.png"
+        alt="Digital Banking System"
+        class="project-thumbnail"
+    >
+
+    <div class="project-number">
+        01
+    </div>
+
+    <span class="project-status">
+        Live
+    </span>
+
+</div>
+
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+
+                        <span class="project-tag">
+                            Web Development
+                        </span>
+
+                        <span class="project-tag">
+                            HTML/CSS
+                        </span>
+
+                        <span class="project-tag">
+                            JavaScript
+                        </span>
+
+                        <span class="project-tag">
+                            Firebase
+                        </span>
+
+                    </div>
+
+
+                    <h3 class="project-title">
+                        Digital Banking System
+                    </h3>
+
+
+                    <p class="project-description">
+                        A modern digital banking web application
+                        designed to provide an interactive and
+                        user-friendly online banking experience.
+                    </p>
+
+
+                    <div class="project-actions">
+
+                        <!-- LIVE DEMO -->
+                        <a
+                            href="https://pritam-42.github.io/Digital-Bank/"
+                            class="project-link primary-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-link-type="demo"
+                        >
+                            <span>
+                                Live Demo
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+
+                        <!-- GITHUB -->
+                        <a
+                            href="https://github.com/pritam-42/Digital-Bank"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-link-type="github"
+                        >
+                            <i class="fa-brands fa-github"></i>
+
+                            <span>
+                                Source Code
+                            </span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 PROJECT 02 — HOSTEL COMPLAINT SYSTEM
+            ================================================== -->
+
+            <article
+                class="project-card glass-panel"
+                data-project-card="true"
+                data-category="web"
+                data-project-id="hostel-complaint"
+                data-reveal="true"
+            >
+
+<div class="project-image project-hostel-image">
+
+    <img
+        src="assets/hostel-complaint-project.png"
+        alt="Hostel Complaint System"
+        class="project-thumbnail"
+    >
+
+    <div class="project-number">
+        02
+    </div>
+
+    <span class="project-status">
+        Live
+    </span>
+
+</div>
+
+
+                <div class="project-content">
+
+                    <div class="project-tags">
+
+                        <span class="project-tag">
+                            Web Development
+                        </span>
+
+                        <span class="project-tag">
+                            HTML/CSS
+                        </span>
+
+                        <span class="project-tag">
+                            JavaScript
+                        </span>
+
+                        <span class="project-tag">
+                            Firebase
+                        </span>
+
+                    </div>
+
+
+                    <h3 class="project-title">
+                        Hostel Complaint System
+                    </h3>
+
+
+                    <p class="project-description">
+                        A web-based hostel complaint management
+                        system that helps students submit complaints
+                        and organize hostel-related issues digitally.
+                    </p>
+
+
+                    <div class="project-actions">
+
+                        <!-- LIVE DEMO -->
+                        <a
+                            href="https://hostel-complain-system-8df22.web.app"
+                            class="project-link primary-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-link-type="demo"
+                        >
+                            <span>
+                                Live Demo
+                            </span>
+
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+
+                        <!-- GITHUB -->
+                        <a
+                            href="https://github.com/pritam-42/Hostel-Complaint-System"
+                            class="project-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-link-type="github"
+                        >
+                            <i class="fa-brands fa-github"></i>
+
+                            <span>
+                                Source Code
+                            </span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+        <!-- Add More Projects -->
+        <div class="projects-footer">
+
+            <button
+                type="button"
+                id="add-project"
+                class="btn btn-secondary magnetic"
+                data-action="add-project"
+            >
+                <i class="fa-solid fa-plus"></i>
+
+                <span>
+                    Add More Projects
+                </span>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- =====================================================
+             MUSIC PLAYER SECTION
+        ====================================================== -->
+
+        <section
+            id="music"
+            class="music-section section"
+            data-section-id="music"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-kicker">
+                        05 / Music
+                    </span>
+
+                    <h2 class="section-title">
+                        My space.
+                        <span class="gradient-text">My sound.</span>
+                    </h2>
+
+                    <p class="section-description">
+                        A custom playlist section ready for
+                        multiple songs and JavaScript controls.
+                    </p>
+
+                </div>
+
+
+                <!-- =========================
+                     MUSIC PLAYER
+                ========================== -->
+
+                <div
+                    id="music-player"
+                    class="music-player glass-panel"
+                    data-player="music"
+                >
+
+
+                    <!-- Player Top -->
+                    <div class="player-top">
+
+                        <div class="player-label">
+                            <span class="music-status-dot"></span>
+                            <span id="player-status">
+                                Ready to play
+                            </span>
+                        </div>
+
+                        <div class="player-track-count">
+                            <span id="current-track-number">
+                                01
+                            </span>
+
+                            <span>/</span>
+
+                            <span id="total-track-number">
+                                03
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Current Track -->
+                    <div class="current-track">
+
+                        <div
+                            id="album-art"
+                            class="album-art"
+                            data-animated-art="true"
+                        >
+
+                            <div class="album-glow"></div>
+
+                            <div class="album-icon">
+                                <i class="fa-solid fa-music"></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="track-information">
+
+                            <span class="track-label">
+                                NOW PLAYING
+                            </span>
+
+                            <h3
+                                id="track-title"
+                                class="track-title"
+                            >
+                                Select a track
+                            </h3>
+
+                            <p
+                                id="track-artist"
+                                class="track-artist"
+                            >
+                                Pritam's Playlist
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Visual Equalizer -->
+                    <div
+                        id="equalizer"
+                        class="equalizer"
+                        aria-hidden="true"
+                    >
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+
+                    <!-- Progress -->
+                    <div class="player-progress-area">
+
+                        <span
+                            id="current-time"
+                            class="time-display"
+                        >
+                            00:00
+                        </span>
+
+                        <input
+                            type="range"
+                            id="progress-bar"
+                            class="progress-bar"
+                            min="0"
+                            max="100"
+                            value="0"
+                            step="0.1"
+                            aria-label="Song progress"
+                        >
+
+                        <span
+                            id="duration"
+                            class="time-display"
+                        >
+                            00:00
+                        </span>
+
+                    </div>
+
+
+                    <!-- Main Controls -->
+                    <div class="player-controls">
+
+                        <button
+                            type="button"
+                            id="shuffle-button"
+                            class="player-button secondary-control"
+                            aria-label="Shuffle playlist"
+                            data-action="shuffle"
+                        >
+                            <i class="fa-solid fa-shuffle"></i>
+                        </button>
+
+
+                        <button
+                            type="button"
+                            id="previous-button"
+                            class="player-button"
+                            aria-label="Previous track"
+                            data-action="previous"
+                        >
+                            <i class="fa-solid fa-backward-step"></i>
+                        </button>
+
+
+                        <button
+                            type="button"
+                            id="play-button"
+                            class="play-button"
+                            aria-label="Play music"
+                            data-action="play-pause"
+                        >
+                            <i
+                                id="play-icon"
+                                class="fa-solid fa-play"
+                            ></i>
+                        </button>
+
+
+                        <button
+                            type="button"
+                            id="next-button"
+                            class="player-button"
+                            aria-label="Next track"
+                            data-action="next"
+                        >
+                            <i class="fa-solid fa-forward-step"></i>
+                        </button>
+
+
+                        <button
+                            type="button"
+                            id="repeat-button"
+                            class="player-button secondary-control"
+                            aria-label="Repeat track"
+                            data-action="repeat"
+                        >
+                            <i class="fa-solid fa-repeat"></i>
+                        </button>
+
+                    </div>
+
+
+                    <!-- Volume -->
+                    <div class="volume-controls">
+
+                        <i class="fa-solid fa-volume-low"></i>
+
+                        <input
+                            type="range"
+                            id="volume-slider"
+                            class="volume-slider"
+                            min="0"
+                            max="1"
+                            value="0.7"
+                            step="0.01"
+                            aria-label="Volume"
+                        >
+
+                        <i class="fa-solid fa-volume-high"></i>
+
+                    </div>
+
+
+                    <!-- =========================
+                         PLAYLIST
+                    ========================== -->
+
+                    <div class="playlist-container">
+
+                        <div class="playlist-header">
+
+                            <h3>
+                                Playlist
+                            </h3>
+
+                            <span>
+                                Multiple tracks
+                            </span>
+
+                        </div>
+
+
+                        <div
+                            id="playlist"
+                            class="playlist"
+                            role="list"
+                            data-playlist-container="true"
+                        >
+
+
+                            <!-- ====================================
+                                 TRACK 01
+                            ===================================== -->
+
+                        <!-- =====================================================
+                            PLAYLIST
+                        ===================================================== -->
+
+        <!-- ============================================
+             SONG 01
+        ============================================= -->
+
+        <button
+            type="button"
+            class="playlist-item active"
+            data-track-index="0"
+            data-audio-url="assets/music/song1.mp3"
+            role="listitem"
+        >
+
+            <span class="playlist-number">
+                01
+            </span>
+
+            <span class="playlist-icon">
+                <i class="fa-solid fa-music"></i>
+            </span>
+
+            <span class="playlist-details">
+
+                <strong>
+                    Tera Mera Rista
+                </strong>
+
+                <small>
+                    Pritam's Playlist
+                </small>
+
+            </span>
+
+            <span class="playlist-duration">
+                00:00
+            </span>
+
+            <i
+                class="fa-solid fa-wave-square playlist-playing-icon"
+            ></i>
+
+        </button>
+
+
+        <!-- ============================================
+             SONG 02
+        ============================================= -->
+
+        <button
+            type="button"
+            class="playlist-item"
+            data-track-index="1"
+            data-audio-url="assets/music/song2.mp3"
+            role="listitem"
+        >
+
+            <span class="playlist-number">
+                02
+            </span>
+
+            <span class="playlist-icon">
+                <i class="fa-solid fa-music"></i>
+            </span>
+
+            <span class="playlist-details">
+
+                <strong>
+                    Hunuman Chalisha
+                </strong>
+
+                <small>
+                    Pritam's Playlist
+                </small>
+
+            </span>
+
+            <span class="playlist-duration">
+                00:00
+            </span>
+
+            <i
+                class="fa-solid fa-wave-square playlist-playing-icon"
+            ></i>
+
+        </button>
+        <!-- ============================================
+     SONG 03
+============================================= -->
+
+<button
+    type="button"
+    class="playlist-item"
+    data-track-index="2"
+    data-audio-url="assets/music/song3.mp3"
+    role="listitem"
+>
+
+    <span class="playlist-number">
+        03
+    </span>
+
+    <span class="playlist-icon">
+        <i class="fa-solid fa-music"></i>
+    </span>
+
+    <span class="playlist-details">
+
+        <strong>
+            Ishq Jalakar
+        </strong>
+
+        <small>
+            Pritam's Playlist
+        </small>
+
+    </span>
+
+    <span class="playlist-duration">
+        00:00
+    </span>
+
+    <i
+        class="fa-solid fa-wave-square playlist-playing-icon"
+    ></i>
+
+</button>
+<!-- ============================================
+     SONG 04
+============================================= -->
+
+<button
+    type="button"
+    class="playlist-item"
+    data-track-index="2"
+    data-audio-url="assets/music/song4.mp3"
+    role="listitem"
+>
+
+    <span class="playlist-number">
+        04
+    </span>
+
+    <span class="playlist-icon">
+        <i class="fa-solid fa-music"></i>
+    </span>
+
+    <span class="playlist-details">
+
+        <strong>
+            Dhurandhar
+        </strong>
+
+        <small>
+            Pritam's Playlist
+        </small>
+
+    </span>
+
+    <span class="playlist-duration">
+        00:00
+    </span>
+
+    <i
+        class="fa-solid fa-wave-square playlist-playing-icon"
+    ></i>
+
+</button>
+<!-- ============================================
+     SONG 05
+============================================= -->
+
+<button
+    type="button"
+    class="playlist-item"
+    data-track-index="2"
+    data-audio-url="assets/music/song5.mp3"
+    role="listitem"
+>
+
+    <span class="playlist-number">
+        05
+    </span>
+
+    <span class="playlist-icon">
+        <i class="fa-solid fa-music"></i>
+    </span>
+
+    <span class="playlist-details">
+
+        <strong>
+            Falling
+        </strong>
+
+        <small>
+            Pritam's Playlist
+        </small>
+
+    </span>
+
+    <span class="playlist-duration">
+        00:00
+    </span>
+
+    <i
+        class="fa-solid fa-wave-square playlist-playing-icon"
+    ></i>
+
+</button>
+    </div>
+
+</div>
+ >
+
+                               
+                    <!-- Hidden / Controlled Audio Element -->
+                    <audio
+                        id="audio-player"
+                        preload="metadata"
+                        data-audio-element="true"
+                    >
+                        <source
+                            src="assets/music/song1.mp3"
+                            type="audio/mpeg"
+                        >
+
+                        Your browser does not support the audio element.
+                    </audio>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             DREAM / FUTURE SECTION
+        ====================================================== -->
+
+        <section
+            id="future"
+            class="future-section section"
+            data-section-id="future"
+        >
+
+            <div class="container">
+
+                <div class="future-card glass-panel">
+
+                    <div class="future-content">
+
+                        <span class="section-kicker">
+                            06 / What's Next?
+                        </span>
+
+                        <h2>
+                            Still learning.
+                            <br>
+
+                            Still building.
+                            <br>
+
+                            <span class="gradient-text">
+                                Still becoming.
+                            </span>
+                        </h2>
+
+                        <p>
+                            My journey is still in progress.
+                            Every project, every skill and every
+                            challenge is another step toward
+                            the future I want to build.
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        class="future-visual"
+                        aria-hidden="true"
+                    >
+
+                        <div class="future-orbit orbit-a"></div>
+                        <div class="future-orbit orbit-b"></div>
+                        <div class="future-orbit orbit-c"></div>
+
+                        <i class="fa-solid fa-rocket future-icon"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+
+    <footer
+        id="site-footer"
+        class="site-footer"
+    >
+
+        <div class="container footer-container">
+
+
+            <!-- Footer Brand -->
+            <div class="footer-brand">
+
+                <a
+                    href="#top"
+                    class="brand footer-logo"
+                >
+                    <span class="brand-mark">
+                        P
+                    </span>
+
+                    <span class="brand-text">
+                        Pritam<span>.</span>
+                    </span>
+                </a>
+
+                <p>
+                    Learning. Building. Growing.
+                </p>
+
+            </div>
+
+
+            <!-- Footer Navigation -->
+            <div class="footer-links">
+
+                <h3>
+                    Navigate
+                </h3>
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#skills">
+                    Skills
+                </a>
+
+                <a href="#journey">
+                    Journey
+                </a>
+
+                <a href="#projects">
+                    Projects
+                </a>
+
+                <a href="#music">
+                    Music
+                </a>
+
+            </div>
+
+
+            <!-- Footer Social -->
+            <div class="footer-links">
+
+                <h3>
+                    Connect
+                </h3>
+
+                <!-- Replace # with your real links -->
+
+                <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-linkedin"></i>
+                    LinkedIn
+                </a>
+
+                <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-solid fa-envelope"></i>
+                    Email
+                </a>
+
+            </div>
+
+
+            <!-- Footer CTA -->
+            <div class="footer-cta">
+
+                <span class="footer-small-text">
+                    Built with curiosity.
+                </span>
+
+                <a
+                    href="#top"
+                    class="back-to-top"
+                    aria-label="Back to top"
+                    data-action="back-to-top"
+                >
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+
+            <div class="container footer-bottom-container">
+
+                <p>
+                    ©
+                    <span id="current-year">
+                        2026
+                    </span>
+                    Pritam Debnath.
+                    All rights reserved.
+                </p>
+
+                <p>
+                    Purba Bardhaman
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================================
+         PROJECT MODAL
+         Ready for JavaScript project editing/details
+    ========================================================== -->
+
+    <div
+        id="project-modal"
+        class="modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="project-modal-title"
+        hidden
+    >
+
+        <div class="modal-backdrop"></div>
+
+        <div class="modal-content glass-panel">
+
+            <button
+                type="button"
+                id="close-project-modal"
+                class="modal-close"
+                aria-label="Close project modal"
+                data-action="close-project-modal"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <span class="section-kicker">
+                Project Details
+            </span>
+
+            <h2 id="project-modal-title">
+                Project Title
+            </h2>
+
+            <div
+                id="project-modal-body"
+                class="modal-body"
+            >
+                Project information will appear here.
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         LOADING SCREEN
+    ========================================================== -->
+
+    <div
+        id="page-loader"
+        class="page-loader"
+        aria-hidden="true"
+    >
+
+        <div class="loader-content">
+
+            <div class="loader-logo">
+                P
+            </div>
+
+            <div class="loader-line">
+                <span></span>
+            </div>
+
+            <p>
+                Loading experience...
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         BACK TO TOP BUTTON
+    ========================================================== -->
+
+    <button
+        type="button"
+        id="floating-top-button"
+        class="floating-top-button"
+        aria-label="Back to top"
+        data-action="back-to-top"
+    >
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================== -->
+
+    <!-- Main JS -->
+    <script src="app.js" defer></script>
+
+</body>
+</html>
